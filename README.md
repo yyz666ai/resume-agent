@@ -5,7 +5,17 @@
   <p><a href="README.en.md">English</a></p>
 </div>
 
-![简历编辑器，使用虚构资料](docs/screenshots/editor.png)
+## 项目截图
+
+截图均使用虚构示例资料。
+
+| 首页 Agent | 我的简历 |
+| --- | --- |
+| <a href="docs/screenshots/agent.png"><img src="docs/screenshots/agent.png" width="360" alt="首页 Agent"></a> | <a href="docs/screenshots/library.png"><img src="docs/screenshots/library.png" width="360" alt="我的简历"></a> |
+
+| 三栏编辑器 | 模型与 API |
+| --- | --- |
+| <a href="docs/screenshots/editor.png"><img src="docs/screenshots/editor.png" width="360" alt="三栏编辑器"></a> | <a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="360" alt="模型与 API"></a> |
 
 ## 产品介绍
 

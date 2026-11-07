@@ -5,7 +5,17 @@
   <p><a href="README.md">简体中文</a></p>
 </div>
 
-![Resume editor with fictional data](docs/screenshots/editor.png)
+## Screenshots
+
+All screenshots use fictional sample data.
+
+| Home agent | Resume library |
+| --- | --- |
+| <a href="docs/screenshots/agent.png"><img src="docs/screenshots/agent.png" width="360" alt="Home agent"></a> | <a href="docs/screenshots/library.png"><img src="docs/screenshots/library.png" width="360" alt="Resume library"></a> |
+
+| Three-pane editor | Model and API |
+| --- | --- |
+| <a href="docs/screenshots/editor.png"><img src="docs/screenshots/editor.png" width="360" alt="Three-pane editor"></a> | <a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="360" alt="Model and API"></a> |
 
 ## About Resume Agent
 
