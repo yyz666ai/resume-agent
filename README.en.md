@@ -2,20 +2,8 @@
   <img src="public/logo.svg" alt="Resume Agent logo" width="88">
   <h1>Resume Agent</h1>
   <p>An open-source resume editor with AI editing, live layout, and PDF export.</p>
-  <p><a href="README.md">简体中文</a></p>
+  <p><a href="README.md">简体中文</a> · <strong>English</strong></p>
 </div>
-
-## Screenshots
-
-All screenshots use fictional sample data.
-
-| Home agent | Resume library |
-| --- | --- |
-| <a href="docs/screenshots/agent.png"><img src="docs/screenshots/agent.png" width="360" alt="Home agent"></a> | <a href="docs/screenshots/library.png"><img src="docs/screenshots/library.png" width="360" alt="Resume library"></a> |
-
-| Three-pane editor | Model and API |
-| --- | --- |
-| <a href="docs/screenshots/editor.png"><img src="docs/screenshots/editor.png" width="360" alt="Three-pane editor"></a> | <a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="360" alt="Model and API"></a> |
 
 ## About Resume Agent
 
@@ -26,6 +14,14 @@ Resume Agent is a self-hosted workspace for building and tailoring resumes. Edit
 - **Templates and formatting:** Choose from ten templates and adjust typography, spacing, margins, and portrait size.
 - **AI-assisted imports and edits:** Organize PDF text into sections, edit a selected entry, and regenerate or undo changes.
 - **Personal profile:** Reuse factual experience and preferences across resumes when profile reference is enabled.
+
+| Home agent | Resume library |
+| --- | --- |
+| <a href="docs/screenshots/agent.png"><img src="docs/screenshots/agent.png" width="360" alt="Home agent"></a> | <a href="docs/screenshots/library.png"><img src="docs/screenshots/library.png" width="360" alt="Resume library"></a> |
+
+| Three-pane editor | Model and API |
+| --- | --- |
+| <a href="docs/screenshots/editor.png"><img src="docs/screenshots/editor.png" width="360" alt="Three-pane editor"></a> | <a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="360" alt="Model and API"></a> |
 
 ## Start
 

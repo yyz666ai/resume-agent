@@ -2,20 +2,8 @@
   <img src="public/logo.svg" alt="简历Agent Logo" width="88">
   <h1>简历Agent</h1>
   <p>开源简历编辑器，支持 AI 修改、实时排版和 PDF 导出。</p>
-  <p><a href="README.en.md">English</a></p>
+  <p><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
 </div>
-
-## 项目截图
-
-截图均使用虚构示例资料。
-
-| 首页 Agent | 我的简历 |
-| --- | --- |
-| <a href="docs/screenshots/agent.png"><img src="docs/screenshots/agent.png" width="360" alt="首页 Agent"></a> | <a href="docs/screenshots/library.png"><img src="docs/screenshots/library.png" width="360" alt="我的简历"></a> |
-
-| 三栏编辑器 | 模型与 API |
-| --- | --- |
-| <a href="docs/screenshots/editor.png"><img src="docs/screenshots/editor.png" width="360" alt="三栏编辑器"></a> | <a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="360" alt="模型与 API"></a> |
 
 ## 产品介绍
 
@@ -26,6 +14,14 @@
 - **模板和排版**：十套模板，可调整字号、行距、页边距、模块间距和照片大小。
 - **AI 导入与改写**：把 PDF 原文整理为可编辑栏目，修改后还能继续追问、重新生成或撤回。
 - **个人档案**：集中记录真实经历和求职偏好，按需作为改写参考。
+
+| 首页 Agent | 我的简历 |
+| --- | --- |
+| <a href="docs/screenshots/agent.png"><img src="docs/screenshots/agent.png" width="360" alt="首页 Agent"></a> | <a href="docs/screenshots/library.png"><img src="docs/screenshots/library.png" width="360" alt="我的简历"></a> |
+
+| 三栏编辑器 | 模型与 API |
+| --- | --- |
+| <a href="docs/screenshots/editor.png"><img src="docs/screenshots/editor.png" width="360" alt="三栏编辑器"></a> | <a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="360" alt="模型与 API"></a> |
 
 ## 启动
 
