@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Resume Studio</title>
+  <rect width="128" height="128" rx="30" fill="#eaf0e1"/>
+  <path d="M36 25h35l17 17v54a7 7 0 0 1-7 7H36a7 7 0 0 1-7-7V32a7 7 0 0 1 7-7Z" fill="#fff" stroke="#3d5931" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M70 25v17h18M44 61h24M44 74h29M44 87h16" fill="none" stroke="#3d5931" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M95 44c1.5 11 5 14.5 16 16-11 1.5-14.5 5-16 16-1.5-11-5-14.5-16-16 11-1.5 14.5-5 16-16Z" fill="#629253" stroke="#eaf0e1" stroke-width="3" stroke-linejoin="round"/>
+</svg>

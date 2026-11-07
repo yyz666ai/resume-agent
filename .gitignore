@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env*
+!.env.example
+.private/
+output/
+*.pdf
+.DS_Store
