@@ -44,9 +44,13 @@ In **Agent settings → Model and API**, select DeepSeek, Qwen, Zhipu, Kimi, or 
 
 ## How to use
 
-### 1. My resumes
+### 1. Start a resume in three ways
 
-Create a blank resume or drop a PDF or JSON file onto the page. The app extracts PDF text and embedded images, and the active model organizes the sections. Compare the result with the source text before saving. Scanned files require OCR first. Use the pencil beside a title to rename it. Duplicate and delete actions are in the preview's top-right corner.
+1. **Start from scratch in Resume Agent.** Open the home agent and describe your background, target role, and what you want to highlight. For example: “Draft a resume for a junior product manager role using the internship and project experience below.” After sending, open the generated version in **My resumes** or keep refining it in chat.
+2. **Start from your profile.** Fill in your education, work, projects, and skills under **Profile**. Then select **Create from profile** in **My resumes** to open an editable copy. You can also choose your profile as the source in Resume Agent and ask for a version tailored to a specific role.
+3. **Import an existing PDF.** Drop it into **My resumes** or upload it to Resume Agent and send an instruction. The app extracts the text, uses your configured model to organize it into editable sections, and renders an A4 preview. Review the imported sections and refine them in the editor. Scanned PDFs require OCR first. JSON backups can also be imported from **My resumes**.
+
+Once the resume is open, choose from ten layouts under **Templates**, including Classic White, Teal Section Bands, single-column, and sidebar designs. Switching templates keeps the content and updates the preview. Continue editing or export a PDF when ready.
 
 ### 2. Editor
 
@@ -55,15 +59,11 @@ Create a blank resume or drop a PDF or JSON file onto the page. The app extracts
 - **Right:** Select a section or entry and give an instruction such as “Rewrite this experience as three bullet points.” Changes apply immediately. Continue the conversation, regenerate the result, or undo the last change.
 - **Export:** Use **Export PDF**. If the app reports a missing PDF rendering runtime, run `npx playwright install chromium` in the project directory and retry.
 
-### 3. Home agent
-
-Upload a PDF, choose an existing resume, or describe your experience and target role. The generated version appears in **My resumes**. Refine it in chat or open the editor.
-
-### 4. Profile and language
+### 3. Profile and language
 
 Keep factual experience and job preferences in **Profile**. Enable profile reference in settings or in chat when you want the model to use those facts. Choosing English adds an English-output instruction to chat and rewriting prompts. Existing resumes and PDF imports retain the source language.
 
-### 5. Switch models
+### 4. Switch models
 
 In **Model and API**, select a provider, check the model and endpoint, then select **Save and test a response**. Settings are saved per provider. Leave the key field empty when switching back to reuse the saved key. The home agent, editor, and AI-assisted PDF import use the active model.
 
