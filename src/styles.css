@@ -5923,3 +5923,8 @@ a {
   color: #526c43;
   margin: 0 0 8px;
 }
+
+.chat-markdown { white-space: normal; overflow-wrap: anywhere; }
+.chat-markdown :is(p, h4, ul, ol) { margin: 0 0 8px; }
+.chat-markdown :is(ul, ol) { padding-inline-start: 20px; }
+.chat-markdown > :last-child { margin-bottom: 0; }

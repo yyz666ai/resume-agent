@@ -1,3 +1,4 @@
+import Reply from "./Reply.jsx";
 import { profileReferenceChoice } from "./profile.js";
 import { getLanguage, t } from "./i18n.js";
 import React, { useEffect, useState, useRef } from "react";
@@ -603,7 +604,7 @@ export default function Agent({
                   {t("简历助手")}
                 </div>
               )}
-              <div>{m.text}</div>
+              {m.role === "assistant" ? <div className="chat-markdown"><Reply text={m.text} /></div> : <div>{m.text}</div>}
               {m.change && m.change.next === doc && (
                 <div className="chat-change">
                   <p><Check size={14} />{t("已更新到简历")}</p>

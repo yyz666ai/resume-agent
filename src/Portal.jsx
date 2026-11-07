@@ -193,7 +193,7 @@ export default function Portal({
       <aside className="portal-sidebar">
         <button className="portal-brand" onClick={() => navigate("/")}>
           <Sparkles size={24} />
-          {t("简历助手")}
+          {t("简历Agent")}
         </button>
         <div className="portal-nav-label">{t("我的求职工作台")}</div>
         <nav>

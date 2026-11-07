@@ -625,7 +625,7 @@ export default function App() {
             <a
               className="brand"
               href="/resumes"
-              aria-label={t("简历助手首页")}
+              aria-label={t("简历Agent")}
               onClick={(e) => {
                 e.preventDefault();
                 navigate("/resumes");
@@ -634,7 +634,7 @@ export default function App() {
               <span className="brand-mark">
                 <FileText size={21} />
               </span>
-              <b>{t("简历助手")}</b>
+              <b>{t("简历Agent")}</b>
             </a>
             <button
               className="icon-button editor-back"
@@ -1179,7 +1179,7 @@ export default function App() {
         />
       )}
       <footer className="app-footer">
-        <span>{t("简历助手 · 清晰表达每一段经历。")}</span>
+        <span>{t("简历Agent · 清晰表达每一段经历。")}</span>
         <span>
           {t("开源免费")}
           <i />

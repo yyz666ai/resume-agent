@@ -15,33 +15,7 @@ import {
 import { applyProposal, emptyResume } from "./model.js";
 import { agentProfile, profileReferenceChoice } from "./profile.js";
 import { initialAgentDocument, automaticResumeTitle } from "./home-agent.js";
-function Reply({ text }) {
-  const blocks = [];
-  for (const line of text.split("\n")) {
-    const bullet = line.match(/^\s*[-*•]\s+(.+)/);
-    const numbered = line.match(/^\s*(\d+)[.)]\s+(.+)/);
-    const list = bullet || numbered;
-    const kind = bullet ? "ul" : numbered ? "ol" : "p";
-    if (list && blocks.at(-1)?.kind === kind) {
-      blocks.at(-1).lines.push(list.at(-1));
-    } else if (line.trim()) {
-      blocks.push({ kind, start: numbered?.[1], lines: [list ? list.at(-1) : line] });
-    }
-  }
-  const emphasis = (line) =>
-    line.split(/(\*\*[^*]+\*\*)/).map((part, index) =>
-      index % 2 ? <strong key={index}>{part.slice(2, -2)}</strong> : part,
-    );
-  return blocks.map(({ kind: Tag, start, lines }, index) =>
-    Tag === "p" ? (
-      <p key={index}>{emphasis(lines[0])}</p>
-    ) : (
-      <Tag key={index} start={start}>
-        {lines.map((line, i) => <li key={i}>{emphasis(line)}</li>)}
-      </Tag>
-    ),
-  );
-}
+import Reply from "./Reply.jsx";
 export default function HomeAgent({
   library,
   profile,
