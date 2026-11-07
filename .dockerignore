@@ -1,7 +1,0 @@
-node_modules
-.private
-.git
-dist
-.env*
-*.pdf
-output
